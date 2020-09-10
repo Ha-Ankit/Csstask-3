@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*-----------navbar-1--------*/
+.navbar-1{
+	background-color: white;
+	border-bottom: 2px #229954 solid;
+}
+.navbar-1 h2{
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+}
+/*-----------navbar-2--------*/
+.navbar-2{
+	height: 35px;
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	border-bottom: 2px black solid;
+	box-shadow: 0px 6px 3px -1px gray;
+}
+.navbar-2 a{
+	color: black;
+	text-decoration: none;
+
+}
+.navbar-2 a:hover{
+	color: #2ed573
+}
+
+.navbar-2 ul li{
+	display: inline;
+	padding: 15px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	padding-right: 40px;
+}
+/*-----------BODY Container--------*/
+.container{
+	background-color: #dfe4ea;
+	overflow: auto;
+}
+/*-----------Inside container-Left part--------*/
+.text{
+	width: 750px;
+	height: 900px;
+	display: inline-block;
+	text-align: justify;
+	background-color: white;
+	padding: 20px;
+	margin-left: 55px;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	overflow-y: scroll;
+}
+p{
+	text-indent: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+/*-----------Inside container-Right part--------*/
+#box{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	margin:  65px 50px 75px;
+	display: inline-block;
+	position: fixed;
+}
+.btn{
+	background-color: #2ecc71;
+	font-size: 20px;
+	color: white;
+	height: 35px;
+	width: 400px;
+	margin-top: 365px;
+	font-family: 'Lato', sans-serif;
+	border:none;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: #009432;
+}
